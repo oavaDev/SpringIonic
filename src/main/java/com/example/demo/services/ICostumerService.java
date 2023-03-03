@@ -6,4 +6,8 @@ import java.util.List;
 
 public interface ICostumerService {
      List<Customer> getAll();
+
+     Customer getById(Long id);
+     void remove(Long id);
+     void save(Customer customer);
 }
