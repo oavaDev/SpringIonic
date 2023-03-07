@@ -17,12 +17,12 @@ public class Supplier {
     private String web;
     private String contact;
 
-    public String getFirstname() {
+    public String getName() {
         return name;
     }
 
-    public void setFirstname(String firstname) {
-        this.name = firstname;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getEmail() {
