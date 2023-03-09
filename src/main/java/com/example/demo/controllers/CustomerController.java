@@ -13,7 +13,6 @@ public class CustomerController {
     private ICostumerService service;
 
     @GetMapping("/api/customers")
-    @CrossOrigin(origins = "http://localhost:3000")
     public List<Customer> getAll() {
         return service.getAll();
     }
