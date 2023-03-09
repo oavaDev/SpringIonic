@@ -17,6 +17,9 @@ public class Supplier {
     private String web;
     private String contact;
 
+    public Long getId() {
+        return id;
+    }
     public String getName() {
         return name;
     }

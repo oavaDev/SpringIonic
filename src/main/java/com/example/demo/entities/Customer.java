@@ -16,6 +16,9 @@ public class Customer {
     private String phone;
     private String address;
 
+    public Long getId() {
+        return id;
+    }
     public String getFirstname() {
         return firstname;
     }

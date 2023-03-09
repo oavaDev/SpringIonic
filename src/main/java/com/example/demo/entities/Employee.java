@@ -18,7 +18,9 @@ public class Employee {
     private String address;
     private Double salary;
 
-
+    public Long getId() {
+        return id;
+    }
     public String getFirstname() {
         return firstname;
     }
